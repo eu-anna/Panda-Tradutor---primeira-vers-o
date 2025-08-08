@@ -12,12 +12,20 @@ Extensão demonstrativa que mostra pandas animados antes de tentar traduzir a p�
 ---
 ## Como usar (localmente) — passo a passo para carregar no Chrome (modo desenvolvedor)
 
-1. **Baixe o pacote** e extraia a pasta `panda_tradutor_extension` num local do seu computador.
-2. Abra o Chrome e vá para: `chrome://extensions/`.
-3. Ative o **Modo do desenvolvedor** (canto superior direito).
-4. Clique em **Carregar sem compactação** (`Load unpacked`) e selecione a pasta `panda_tradutor_extension` extraída.
-5. A extensão aparecerá na lista. Abra qualquer página, clique no ícone da extensão (ou na peça do puzzle) e clique em **Traduzir página**.
-6. Aguarde a sequência dos pandas. No final, a extensão tentará injetar o widget do Google Translate e traduzir automaticamente a página para português.
+Opção 1 — Baixar e instalar localmente
+1. Clique em **Code → Download ZIP** no repositório.
+2. Extraia o ZIP e localize a pasta que contém `manifest.json`.
+3. Abra o Chrome e vá para `chrome://extensions/`.
+4. Ative **Developer mode** (canto superior direito).
+5. Clique em **Load unpacked** e selecione a pasta com `manifest.json`.
+6. Pronto — clique no ícone da extensão e use "Traduzir página".
+
+### Opção 2 — Instalar via Git (para quem usa terminal)
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+# Em seguida vá para chrome://extensions/ → Load unpacked → selecione a pasta clonada
+
+
 
 **Observações:** alguns sites com políticas de segurança (CSP) ou iframes podem bloquear a injeção do script do Google Translate — nesses casos a extensão mostra um aviso e não traduz automaticamente.]
 
