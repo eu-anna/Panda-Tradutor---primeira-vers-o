@@ -1,0 +1,31 @@
+<!-- panda2.svg - panda fofo segurando placa "Tradução completa" -->
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .ear { fill: #111; }
+      .face { fill: #fff; stroke:#111; stroke-width:6px; }
+      .eye-patch { fill:#111; }
+      .eye { fill:#fff; }
+      .smile { fill:none; stroke:#111; stroke-width:8px; stroke-linecap:round; }
+      .sign { fill:#fff; stroke:#111; stroke-width:6px; rx:18; }
+      .sign-text { font-family: Arial, sans-serif; font-weight:700; font-size:40px; fill:#111; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <!-- ears -->
+  <circle class="ear" cx="170" cy="140" r="80"/>
+  <circle class="ear" cx="470" cy="140" r="80"/>
+  <!-- face -->
+  <circle class="face" cx="320" cy="280" r="200"/>
+  <!-- eye patches -->
+  <ellipse class="eye-patch" cx="250" cy="260" rx="50" ry="70"/>
+  <ellipse class="eye-patch" cx="390" cy="260" rx="50" ry="70"/>
+  <!-- eyes (fofos) -->
+  <circle cx="245" cy="275" r="18" class="eye"/>
+  <circle cx="385" cy="275" r="18" class="eye"/>
+  <!-- smile -->
+  <path class="smile" d="M270 330 q50 60 100 0" />
+  <!-- sign -->
+  <rect x="120" y="360" width="400" height="120" class="sign" rx="14" ry="14"/>
+  <text x="320" y="435" text-anchor="middle" class="sign-text">Tradução completa</text>
+</svg>

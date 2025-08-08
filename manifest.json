@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Panda Tradutor",
+  "version": "1.0",
+  "description": "Tradução divertida com pandas animados (PT-BR).",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

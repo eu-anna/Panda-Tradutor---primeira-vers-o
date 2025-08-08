@@ -1,0 +1,34 @@
+<!-- panda1.svg - panda bravo segurando placa "Vai estudar" -->
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .bg { fill: none; }
+      .ear { fill: #111; }
+      .face { fill: #fff; stroke:#111; stroke-width:6px; }
+      .eye-patch { fill:#111; }
+      .mouth { fill:none; stroke:#111; stroke-width:8px; stroke-linecap:round; }
+      .brow { stroke:#111; stroke-width:10px; stroke-linecap:round; }
+      .sign { fill:#fff; stroke:#111; stroke-width:6px; rx:18; }
+      .sign-text { font-family: Arial, sans-serif; font-weight:700; font-size:44px; fill:#111; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <!-- ears -->
+  <circle class="ear" cx="170" cy="140" r="80"/>
+  <circle class="ear" cx="470" cy="140" r="80"/>
+  <!-- face -->
+  <circle class="face" cx="320" cy="280" r="200"/>
+  <!-- eye patches -->
+  <ellipse class="eye-patch" cx="250" cy="260" rx="50" ry="70"/>
+  <ellipse class="eye-patch" cx="390" cy="260" rx="50" ry="70"/>
+  <!-- eyes (angry) -->
+  <circle cx="245" cy="270" r="12" fill="#fff"/>
+  <circle cx="385" cy="270" r="12" fill="#fff"/>
+  <path class="brow" d="M200 210 Q250 190 280 210" />
+  <path class="brow" d="M440 210 Q390 190 360 210" />
+  <!-- mouth -->
+  <path class="mouth" d="M300 330 q20 20 40 0" />
+  <!-- sign -->
+  <rect x="160" y="360" width="320" height="120" class="sign" rx="14" ry="14"/>
+  <text x="320" y="435" text-anchor="middle" class="sign-text">Vai estudar</text>
+</svg>
